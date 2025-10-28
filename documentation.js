@@ -149,34 +149,34 @@ function loadArchitectureSection(container) {
         </div>
 
         <div class="architecture-variants">
-            ${generateVariantHTML(1, 'Non-Scalable Web Only', 'Entry-level build focused on rapid browser-based delivery via React and Firebase', 
+            ${generateVariantHTML(1, 'Non-Scalable Web Only', 'React for both user and admin panels with Firebase backend - Web-only access via browsers', 
                 '6 weeks', '₹1.5L', '2.75 FTE', '₹2.7L',
-                ['React 18 with Vite', 'Firebase Hosting', 'Cloud Firestore', 'Firebase Functions', 'YouTube/Vimeo embed'],
+                ['React 18 for user panel', 'React 18 for admin panel', 'Firebase Authentication', 'Cloud Firestore', 'Firebase Functions', 'Web-only deployment'],
                 ['Rapid MVP launch', 'Market validation', 'Limited geography pilots', 'Quick iteration cycles', 'Firebase ecosystem'])}
             
-            ${generateVariantHTML(2, 'Non-Scalable PWA', 'Progressive Web App for mobile-native experience without app store overhead', 
+            ${generateVariantHTML(2, 'Non-Scalable PWA', 'React + Ionic for Android PWA (user) and React web (admin) with Firebase ecosystem', 
                 '10 weeks', '₹2.5L', '3.15 FTE', '₹4.5L',
-                ['React + Ionic', 'Capacitor PWA', 'Workbox service workers', 'Firebase Cloud Messaging', 'Algolia search'],
+                ['React + Ionic for user PWA','App for android only', 'React web for admin', 'Capacitor PWA deployment', 'Firebase ecosystem', 'Workbox service workers', 'PWA for users, web for admin'],
                 ['Mobile adoption testing', 'Quick feature updates', 'App store alternatives', 'Offline capabilities', 'Cross-browser compatibility'])}
             
-            ${generateVariantHTML(3, 'Semi-Scalable Hybrid', 'Native mobile apps with enhanced Firebase backend via Cloud Run', 
+            ${generateVariantHTML(3, 'Semi-Scalable Hybrid', 'React Native (iOS/Android user app) and React web (admin) with Firebase enhanced services', 
                 '16 weeks', '₹4.0L', '5.4 FTE', '₹7.2L',
-                ['React Native 0.76', 'Cloud Run services', 'Mux low-latency HLS', 'Cloud SQL PostgreSQL', 'WatermelonDB offline'],
+                ['React Native for iOS/Android user app', 'React web for admin', 'Firebase with enhanced services', 'Cloud Run services', 'Native mobile + web admin deployment'],
                 ['Mid-scale operations', 'Native experiences', 'Better performance', 'Regional expansion', 'App store presence'])}
             
-            ${generateVariantHTML(4, 'Scalable Hybrid (Recommended)', 'Custom Express.js microservices orchestrated on GKE', 
+            ${generateVariantHTML(4, 'Scalable Hybrid (Recommended)', 'React Native (iOS/Android user app) and React web (admin) with Express.js microservices on Kubernetes GCP', 
                 '20 weeks', '₹7.2L', '9.65 FTE', '₹12.5L',
-                ['React Native monorepo', 'GKE with Istio', 'PostgreSQL + Redis', 'Ant Media Server', 'Cloud Storage + CDN', 'EZDRM integration'],
+                ['React Native for iOS/Android user app', 'React web for admin', 'Express.js microservices', 'Kubernetes on GCP', 'Native mobile + web admin with scalable infrastructure'],
                 ['High availability', 'Multi-region ready', 'Extensible architecture', 'National scale', 'SLA 99.9%', 'Advanced monitoring'], true)}
             
-            ${generateVariantHTML(5, 'Fully Scalable', 'Full React Native ecosystem with multi-region reliability on GKE', 
+            ${generateVariantHTML(5, 'Fully Scalable', 'React Native for both user and admin (iOS/Android) with Express.js microservices on Kubernetes GCP', 
                 '28 weeks', '₹9.5L', '14.65 FTE', '₹16.5L',
-                ['Cloud Spanner global', 'GraphQL Federation', 'WebRTC <1s latency', 'ElasticSearch', 'Blockchain transparency', 'Apollo Federation'],
+                ['React Native for user iOS/Android', 'React Native for admin iOS/Android', 'Express.js microservices', 'Kubernetes on GCP', 'Native apps for all platforms with enterprise backend'],
                 ['Geographic expansion', 'Multiple dedicated apps', 'Global reliability', 'AI personalization', 'Low-latency streaming', 'Cross-region active-active'])}
             
-            ${generateVariantHTML(6, 'Complete Enterprise', 'Enterprise-grade tri-app suite with CQRS and event sourcing', 
+            ${generateVariantHTML(6, 'Complete Enterprise', 'React Native for user, agent, and admin panels (iOS/Android) with Express.js microservices on Kubernetes GCP', 
                 '36 weeks', '₹17.5L', '21.5 FTE', '₹30L+',
-                ['Kafka event sourcing', 'Apigee gateway', 'Neo4j relationships', 'Temporal workflows', 'Bigtable high-throughput', 'SOC2 compliance', 'Multi-CDN strategy'],
+                ['React Native for user iOS/Android', 'React Native for agent iOS/Android', 'React Native for admin iOS/Android', 'Express.js microservices', 'Kubernetes on GCP', 'Native apps for all user types with full enterprise architecture'],
                 ['Global scale', 'Enterprise features', 'Advanced analytics', 'Full compliance', 'Regulatory readiness', '24x7 NOC coverage', 'Data mesh architecture'])}
         </div>
 
@@ -199,18 +199,18 @@ function loadArchitectureSection(container) {
                     <tbody>
                         <tr>
                             <td><strong>1. Web Only</strong></td>
-                            <td>React web</td>
+                            <td>React (user + admin web)</td>
                             <td>Firebase</td>
                             <td>Low</td>
                             <td>6 weeks</td>
                             <td>₹1.5L</td>
                             <td>₹2.7L</td>
-                            <td>Vendor lock-in, limited scale</td>
+                            <td>Web-only access</td>
                         </tr>
                         <tr>
                             <td><strong>2. PWA</strong></td>
-                            <td>React PWA</td>
-                            <td>Firebase + Algolia</td>
+                            <td>React+Ionic PWA + React web</td>
+                            <td>Firebase</td>
                             <td>Low-Medium</td>
                             <td>10 weeks</td>
                             <td>₹2.5L</td>
@@ -219,7 +219,7 @@ function loadArchitectureSection(container) {
                         </tr>
                         <tr>
                             <td><strong>3. Hybrid</strong></td>
-                            <td>React Native</td>
+                            <td>React Native + React web</td>
                             <td>Firebase + Cloud Run</td>
                             <td>Medium</td>
                             <td>16 weeks</td>
@@ -229,7 +229,7 @@ function loadArchitectureSection(container) {
                         </tr>
                         <tr class="recommended-row">
                             <td><strong>4. Scalable ⭐</strong></td>
-                            <td>React Native</td>
+                            <td>React Native + React web</td>
                             <td>Express + GKE</td>
                             <td>High</td>
                             <td>20 weeks</td>
@@ -239,8 +239,8 @@ function loadArchitectureSection(container) {
                         </tr>
                         <tr>
                             <td><strong>5. Fully Scalable</strong></td>
-                            <td>RN suite</td>
-                            <td>Express + Spanner</td>
+                            <td>React Native (user + admin)</td>
+                            <td>Express + GKE</td>
                             <td>Very High</td>
                             <td>28 weeks</td>
                             <td>₹9.5L</td>
@@ -249,8 +249,8 @@ function loadArchitectureSection(container) {
                         </tr>
                         <tr>
                             <td><strong>6. Enterprise</strong></td>
-                            <td>RN tri-app</td>
-                            <td>CQRS + Kafka</td>
+                            <td>React Native (user + agent + admin)</td>
+                            <td>Express + GKE</td>
                             <td>Enterprise</td>
                             <td>36 weeks</td>
                             <td>₹17.5L</td>
