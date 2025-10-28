@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Poojaan - Complete Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">🕉️</span>
+                <span class="brand-text">Dev Poojaan</span>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#platform-overview">Platform</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#technical-specs">Technical Specs</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Documentation Hero -->
+    <section class="doc-hero">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Overview</a>
+            <h1 class="doc-title">Complete Technical Documentation</h1>
+            <p class="doc-subtitle">In-depth technical execution plan for Dev Poojaan platform</p>
+        </div>
+    </section>
+
+    <!-- Documentation Container -->
+    <div class="doc-container">
+        <div class="container">
+            <div class="doc-layout">
+                <!-- Sidebar TOC -->
+                <aside class="doc-sidebar" id="docSidebar">
+                    <div class="sidebar-sticky">
+                        <h3 class="sidebar-title">Table of Contents</h3>
+                        <nav class="doc-nav">
+                            <a href="#platform-overview" class="doc-nav-link active">
+                                <span class="nav-number">01</span>
+                                <span class="nav-text">Platform Overview</span>
+                            </a>
+                            <a href="#target-audience" class="doc-nav-link">
+                                <span class="nav-number">02</span>
+                                <span class="nav-text">Target Audience</span>
+                            </a>
+                            <a href="#value-proposition" class="doc-nav-link">
+                                <span class="nav-number">03</span>
+                                <span class="nav-text">Value Proposition</span>
+                            </a>
+                            <a href="#architecture" class="doc-nav-link">
+                                <span class="nav-number">04</span>
+                                <span class="nav-text">Architecture Variants</span>
+                            </a>
+                            <a href="#customer-app" class="doc-nav-link">
+                                <span class="nav-number">05</span>
+                                <span class="nav-text">Customer Application</span>
+                            </a>
+                            <a href="#admin-panel" class="doc-nav-link">
+                                <span class="nav-number">06</span>
+                                <span class="nav-text">Admin Panel</span>
+                            </a>
+                            <a href="#technical-specs" class="doc-nav-link">
+                                <span class="nav-number">07</span>
+                                <span class="nav-text">Technical Specifications</span>
+                            </a>
+                        </nav>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="doc-content">
+                    <!-- Loading indicator will be shown while sections load -->
+                    <div id="content-loader" class="content-loader">
+                        <div class="loader-spinner"></div>
+                        <p>Loading documentation...</p>
+                    </div>
+
+                    <!-- Section 1: Platform Overview -->
+                    <section id="platform-overview" class="doc-section">
+                        <h2 class="section-heading">
+                            <span class="heading-number">01</span>
+                            Platform Overview
+                        </h2>
+                        <div class="section-intro">
+                            <p class="lead-text">Dev Poojaan represents a revolutionary digital spiritual ecosystem meticulously crafted for devotees seeking authentic Vedic experiences worldwide.</p>
+                        </div>
+
+                        <div class="content-block">
+                            <h3>Comprehensive Platform</h3>
+                            <p>This comprehensive spiritual technology platform delivers an immersive, temple-quality worship experience through cutting-edge technology, intelligent puja curation, and a multi-faceted approach that serves devotees, temple partners, and administrators through specialized applications and systems.</p>
+                            
+                            <div class="info-callout">
+                                <h4>Market Positioning</h4>
+                                <p><strong>Competitive Advantages:</strong></p>
+                                <ul>
+                                    <li><strong>Spiritual-Focused Technology:</strong> Specialized platform targeting devotional needs rather than general religious content</li>
+                                    <li><strong>Temple Network:</strong> Extensive partnerships with authentic temples across India</li>
+                                    <li><strong>Cultural Sensitivity:</strong> Deep understanding of regional traditions and customary practices</li>
+                                    <li><strong>Transparent Operations:</strong> Complete visibility into spiritual services delivery and fund utilization</li>
+                                    <li><strong>Family-Centric Features:</strong> Multi-generational account management and elderly care integration</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout info-callout-accent">
+                                <h4>Platform Differentiation</h4>
+                                <ul>
+                                    <li>Advanced puja scheduling with astrological timing optimization</li>
+                                    <li>Family worship coordination across multiple locations</li>
+                                    <li>Integration with traditional temple economics supporting local priests</li>
+                                    <li>Multilingual Vedic content with regional dialect support</li>
+                                    <li>Automated festival calendar with personalized observance tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="feature-boxes">
+                            <div class="feature-box">
+                                <div class="feature-box-icon">☁️</div>
+                                <h4>Modern Spiritual Technology</h4>
+                                <ul>
+                                    <li>Built on scalable cloud infrastructure for global reach</li>
+                                    <li>Microservices architecture ensuring reliable spiritual service delivery</li>
+                                    <li>Progressive Web App (PWA) technology for native-like mobile devotional experience</li>
+                                    <li>Real-time temple connectivity and live streaming integration</li>
+                                    <li>Advanced video streaming algorithms for optimal puja viewing</li>
+                                </ul>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="feature-box-icon">🎨</div>
+                                <h4>Devotee-Centric Design Approach</h4>
+                                <ul>
+                                    <li>Intuitive interface designed for seamless spiritual service discovery</li>
+                                    <li>Accessibility-first design supporting devotees with different abilities</li>
+                                    <li>Responsive layout adapting to all screen sizes and orientations</li>
+                                    <li>Minimalist aesthetic focusing on spiritual content rather than interface clutter</li>
+                                    <li>Traditional and modern themes reflecting cultural preferences</li>
+                                    <li>Multi-language support for regional devotees</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-callout">
+                            <h4>Multi-Platform Spiritual Accessibility</h4>
+                            <p>Dev Poojaan ensures devotees can access authentic spiritual experiences across all devices:</p>
+                            <ul>
+                                <li><strong>Native Mobile Apps:</strong> iOS and Android applications optimized for devotional practices with offline capabilities</li>
+                                <li><strong>Progressive Web Application:</strong> Browser-based access with native app-like spiritual functionality and cross-device sync</li>
+                                <li><strong>Cross-Device Synchronization:</strong> Seamless spiritual service continuity across smartphones, tablets, and laptops</li>
+                                <li><strong>Adaptive Streaming Technology:</strong> Automatic adjustment to network conditions for optimal temple connectivity</li>
+                                <li><strong>Offline-First Architecture:</strong> Access daily Panchang, saved pujas, and spiritual content without internet</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Section 2: Target Audience -->
+                    <section id="target-audience" class="doc-section">
+                        <h2 class="section-heading">
+                            <span class="heading-number">02</span>
+                            Target Audience & Demographics
+                        </h2>
+
+                        <div class="content-block">
+                            <h3>Primary Demographics</h3>
+                            <div class="demographic-grid">
+                                <div class="demographic-card">
+                                    <div class="demographic-icon">🙏</div>
+                                    <h4>Spiritual Devotees (Ages 25-65)</h4>
+                                    <p>Users passionate about traditional worship, seeking authentic temple experiences, and maintaining religious practices</p>
+                                </div>
+
+                                <div class="demographic-card">
+                                    <div class="demographic-icon">🌍</div>
+                                    <h4>NRI Community</h4>
+                                    <p>Overseas Indians seeking connection with homeland spiritual traditions and temple worship</p>
+                                </div>
+
+                                <div class="demographic-card">
+                                    <div class="demographic-icon">💼</div>
+                                    <h4>Busy Professionals</h4>
+                                    <p>Urban devotees who lack time for physical temple visits but desire spiritual fulfillment</p>
+                                </div>
+
+                                <div class="demographic-card">
+                                    <div class="demographic-icon">👴</div>
+                                    <h4>Elder Care Recipients</h4>
+                                    <p>Family members arranging religious services for elderly parents or relatives</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-block">
+                            <h3>Secondary Demographics</h3>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <span class="info-bullet">•</span>
+                                    <div class="info-content">
+                                        <strong>Multi-Generational Families:</strong> Households with diverse spiritual needs and traditional obligations
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-bullet">•</span>
+                                    <div class="info-content">
+                                        <strong>Festival Enthusiasts:</strong> Devotees particularly active during religious festivals and auspicious occasions
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-bullet">•</span>
+                                    <div class="info-content">
+                                        <strong>Pilgrimage Seekers:</strong> Individuals planning spiritual journeys and seeking remote temple connections
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-bullet">•</span>
+                                    <div class="info-content">
+                                        <strong>Spiritual Wellness Seekers:</strong> Users incorporating traditional practices into modern wellness routines
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-block">
+                            <h3>User Behavior Patterns & Engagement</h3>
+                            <div class="info-callout">
+                                <h4>Traditional Devotees (Core Audience - Ages 30-70)</h4>
+                                <ul>
+                                    <li><strong>Worship Commitment:</strong> Deeply committed to regular worship practices and traditional ceremonies</li>
+                                    <li><strong>Authenticity Preference:</strong> Strong preference for authentic temple experiences and verified spiritual services</li>
+                                    <li><strong>Astrological Engagement:</strong> High engagement with astrological features and festival calendar integration</li>
+                                    <li><strong>Family Coordination:</strong> Active participation in family worship coordination and elder care spiritual services</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout info-callout-accent">
+                                <h4>NRI & Diaspora Community</h4>
+                                <ul>
+                                    <li><strong>Cultural Connection:</strong> Seeking connection with homeland spiritual traditions from overseas locations</li>
+                                    <li><strong>Time Zone Requirements:</strong> Need for time zone adjusted puja services and festival celebrations</li>
+                                    <li><strong>Cross-Continental Family:</strong> High preference for family coordination features connecting relatives across continents</li>
+                                    <li><strong>Authenticity Value:</strong> High value placed on cultural authenticity and traditional practice maintenance</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout">
+                                <h4>Urban Professional Devotees</h4>
+                                <ul>
+                                    <li><strong>Time Constraints:</strong> Unable to visit temples regularly due to demanding work schedules</li>
+                                    <li><strong>Convenience Seeking:</strong> Require convenient spiritual fulfillment without compromising authenticity</li>
+                                    <li><strong>Scheduled Services:</strong> Preference for scheduled puja services and automated spiritual reminders</li>
+                                    <li><strong>Lifestyle Integration:</strong> Need for modern lifestyle integration while maintaining traditional observances</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout info-callout-accent">
+                                <h4>Family Care Coordinators</h4>
+                                <ul>
+                                    <li><strong>Elder Care Management:</strong> Adult children arranging spiritual services for elderly parents</li>
+                                    <li><strong>Multi-Generational Needs:</strong> Managing diverse spiritual needs across family generations</li>
+                                    <li><strong>Transparency Requirements:</strong> Need for transparent service delivery and family communication integration</li>
+                                    <li><strong>Traditional Focus:</strong> Emphasis on traditional practices important to elder family members</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section 3: Value Proposition -->
+                    <section id="value-proposition" class="doc-section">
+                        <h2 class="section-heading">
+                            <span class="heading-number">03</span>
+                            Core Value Proposition
+                        </h2>
+
+                        <div class="value-grid">
+                            <div class="value-card">
+                                <div class="value-header">
+                                    <div class="value-icon">🎥</div>
+                                    <h3>Authentic Temple Experience</h3>
+                                </div>
+                                <div class="value-items">
+                                    <div class="value-item">
+                                        <h4>Live Puja Streaming</h4>
+                                        <p>Real-time temple ceremonies with 4K Ultra HD resolution and clear audio</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Verified Pandits</h4>
+                                        <p>Authenticated priests from renowned temples performing traditional rituals</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Temple Partnerships</h4>
+                                        <p>Direct connections with famous temples including Kashi Vishwanath, Badrinath, Golden Temple, and regional sacred sites</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Cultural Authenticity</h4>
+                                        <p>Maintaining traditional practices while leveraging modern technology</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-header">
+                                    <div class="value-icon">📿</div>
+                                    <h3>Comprehensive Spiritual Services</h3>
+                                </div>
+                                <div class="value-items">
+                                    <div class="value-item">
+                                        <h4>Online Puja Services</h4>
+                                        <p>Complete range of Vedic ceremonies including Havan, Abhishek, Aarti, and special occasion pujas</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Chadhava (Offering) Services</h4>
+                                        <p>Digital offering system allowing devotees to send prasadam, flowers, and donations to temples</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Daily Panchang</h4>
+                                        <p>Accurate astrological calendar with Tithi, Nakshatra, Vara, Yoga, and Karana</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Astrological Guidance</h4>
+                                        <p>Personalized muhurat recommendations and spiritual timing advice</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-header">
+                                    <div class="value-icon">🤖</div>
+                                    <h3>Advanced Personalization Engine</h3>
+                                </div>
+                                <div class="value-items">
+                                    <div class="value-item">
+                                        <h4>AI-Driven Spiritual Recommendations</h4>
+                                        <p>Machine learning algorithms analyzing devotional patterns, festival preferences, and spiritual needs</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Regional Customization</h4>
+                                        <p>Content and services adapted to regional traditions and local deities</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Family Worship Planning</h4>
+                                        <p>Coordinated spiritual services for entire families including elderly care</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Festival Automation</h4>
+                                        <p>Automatic reminders and puja scheduling for important religious occasions</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-header">
+                                    <div class="value-icon">✅</div>
+                                    <h3>Transparency & Trust Features</h3>
+                                </div>
+                                <div class="value-items">
+                                    <div class="value-item">
+                                        <h4>Live Proof System</h4>
+                                        <p>Real-time video and photo documentation of offerings and pujas performed with immutable records</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Pandit Profiles</h4>
+                                        <p>Detailed information about performing priests including qualifications and experience</p>
+                                    </div>
+                                    <div class="value-item">
+                                        <h4>Temple Authentication</h4>
+                                        <p>Verified temple partnerships with official documentation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-block">
+                            <h3>Detailed Service Specifications</h3>
+                            
+                            <div class="info-callout">
+                                <h4>Live Puja Streaming Technology</h4>
+                                <ul>
+                                    <li><strong>4K Ultra HD Resolution:</strong> Crystal-clear video quality for immersive temple experiences</li>
+                                    <li><strong>Real-Time Connectivity:</strong> <1s latency for premium rituals using WebRTC technology</li>
+                                    <li><strong>Adaptive Streaming:</strong> Automatic bitrate adjustment for optimal viewing on all network conditions</li>
+                                    <li><strong>Multi-Angle Cameras:</strong> Multiple camera perspectives during important ceremonies</li>
+                                    <li><strong>Clear Audio:</strong> Professional audio capture ensuring every mantra is heard distinctly</li>
+                                    <li><strong>DRM Protection:</strong> Widevine/FairPlay integration for premium content security</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout info-callout-accent">
+                                <h4>AI Personalization Capabilities</h4>
+                                <ul>
+                                    <li><strong>Devotional Pattern Analysis:</strong> Machine learning algorithms tracking worship frequency, preferred deities, and ceremony types</li>
+                                    <li><strong>Festival Preference Learning:</strong> Automatic detection of regional festivals and family traditions</li>
+                                    <li><strong>Astrological Integration:</strong> Birth chart analysis for personalized muhurat recommendations</li>
+                                    <li><strong>Family Coordination Intelligence:</strong> Smart scheduling considering multiple family members' preferences and timezones</li>
+                                    <li><strong>Regional Adaptation:</strong> Content automatically customized to local traditions, languages, and deities</li>
+                                    <li><strong>Predictive Recommendations:</strong> Proactive suggestions for upcoming festivals and auspicious timings</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-callout">
+                                <h4>Transparency & Trust Infrastructure</h4>
+                                <ul>
+                                    <li><strong>Real-Time Video Documentation:</strong> Live stream and recorded evidence of every puja performed</li>
+                                    <li><strong>Photo Proof System:</strong> High-resolution images of offerings placed and rituals completed</li>
+                                    <li><strong>Immutable Service Records:</strong> Audit trails for all spiritual services and donations</li>
+                                    <li><strong>Pandit Authentication:</strong> Verified credentials, background checks, and performance ratings</li>
+                                    <li><strong>Temple Verification:</strong> Official partnerships documented with temple authorities</li>
+                                    <li><strong>Fund Utilization Transparency:</strong> Complete visibility into donation distribution and temple economics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Load more button for next sections -->
+                    <div class="load-more-section">
+                        <button class="btn btn-primary" id="loadMoreBtn" onclick="loadNextSection()">
+                            Load Architecture Details →
+                        </button>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">🕉️</span>
+                    <span class="brand-text">Dev Poojaan</span>
+                </div>
+                <p class="footer-tagline">जहाँ भाव, वहीं देव</p>
+                <p class="footer-copyright">© 2025 Dev Poojaan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="documentation.js"></script>
+</body>
+</html>
