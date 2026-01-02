@@ -211,6 +211,6 @@ techTags.forEach(tag => {
 });
 
 // Console branding
-console.log('%c🕉️ Dev Poojaan', 'font-size: 24px; font-weight: bold; background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
+console.log('%c🕉️ Savidhi', 'font-size: 24px; font-weight: bold; background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
 console.log('%cTechnical Execution Plan', 'font-size: 14px; color: #6B6B6B;');
 console.log('%cजहाँ भाव, वहीं देव', 'font-size: 12px; font-style: italic; color: #FF6B35;');

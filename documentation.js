@@ -344,7 +344,7 @@ function loadCustomerAppSection(container) {
 
         <div class="info-callout">
             <h4>Platform Integration & Ecosystem Role</h4>
-            <p>The customer application serves as the cornerstone of the Dev Poojaan platform, seamlessly integrating with:</p>
+            <p>The customer application serves as the cornerstone of the Savidhi platform, seamlessly integrating with:</p>
             <ul>
                 <li><strong>Temple Management Systems:</strong> Real-time puja scheduling and pandit coordination</li>
                 <li><strong>Admin Oversight Systems:</strong> Service quality monitoring and devotee support</li>
@@ -585,7 +585,7 @@ function loadAdminPanelSection(container) {
         </h2>
         
         <div class="content-block">
-            <p class="lead-text">The comprehensive command and control center for the entire Dev Poojaan platform ecosystem—providing sophisticated management capabilities that ensure seamless operation across all devotee touchpoints, temple service workflows, and spiritual business operations.</p>
+            <p class="lead-text">The comprehensive command and control center for the entire Savidhi platform ecosystem—providing sophisticated management capabilities that ensure seamless operation across all devotee touchpoints, temple service workflows, and spiritual business operations.</p>
         </div>
 
         <div class="info-callout">
@@ -1053,7 +1053,7 @@ function loadRecommendationsSection(container) {
         </h2>
         
         <div class="content-block">
-            <p class="lead-text">Strategic roadmap for successful Dev Poojaan platform implementation and launch.</p>
+            <p class="lead-text">Strategic roadmap for successful Savidhi platform implementation and launch.</p>
         </div>
 
         <div class="info-callout">
